@@ -1,0 +1,32 @@
+.hobby {
+    padding-top: 10rem;
+}
+
+.hobby_container {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.hobby_item {
+    /* margin-top: 7rem; */
+    padding: 1.875rem 2.5rem;
+    background-color: var(--container-color);
+    text-align: center;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition: .3s;
+}
+
+.hobby_img {
+    height: 150px;
+}
+
+.hobby_plan {
+    padding-top: 3rem;
+}
+
+.hobby_item:hover {
+    transform: translateY(-10px);
+}
